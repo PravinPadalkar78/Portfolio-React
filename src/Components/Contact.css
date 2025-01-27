@@ -1,0 +1,73 @@
+
+.contact-cards{
+    background-color: aqua;
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 1rem ;
+    padding: 1rem;
+  }
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .email-card{
+    min-height: 125px;
+    background-color: var(--element-dark-bg-color);
+  }
+  .email-content{
+    background-color: var(--element-light-bg-color);
+    padding: 8px 8px;
+    border-radius: 8px;
+  }
+  .linkedin-card{
+    background-color: var(--element-dark-bg-color);
+   
+    min-height: 125px;
+  }
+  .resume-card{
+    background-color: var(--element-dark-bg-color);
+  }
+  .resume-content h2{
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+  .github-card{
+    background-color: var(--element-dark-bg-color);
+  }
+  .github-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .github-content p{
+    text-align: center;
+  }
+  
+  
+  @media (min-width:600px)
+  {
+    .contact-cards{
+        grid-template-columns: 1.1fr 1fr;
+    }
+    .email-content{
+        padding: 8px 1rem;
+    }
+  }
+  
+  @media (min-width:720px)
+  {
+    .contact-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .email-card{
+        grid-column-start: span 2;
+    }
+    .linkedin-card{
+        grid-row-start: span 2;
+    }
+  }
