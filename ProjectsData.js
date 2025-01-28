@@ -1,5 +1,14 @@
 export default [
   {
+    title: "Custom Dashboard",
+    description:
+      "This is a React.js application styled with Tailwind CSS, offering secure login, user registration, and CRUD (Create, Read, Update, Delete) operations. It features a dynamic Accounts List with editable tables, an Entry Form for managing user details, and a button to export table data to Excel. Designed for responsiveness and usability, this project demonstrates efficient data management with a clean, intuitive interface suitable for various use cases in modern web development.",
+    projectStack: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
+    imageURL: "./custom-feedback.png",
+    imageALT: "CustomDashboard",
+    liveLink: "https://react-custom-dashboard.vercel.app",
+  },
+  {
     title: "CountriesAPI",
     description:
       "This project showcases a responsive website fetching country datafrom a REST API using React.js and Tailwind CSS.Key featuresinclude search functionality, filtering by region, and a togglefor dark/light mode, ensuring a dynamic and user-friendlyexperience. Built as a Frontend Mentor challenge, it emphasizesinteractive and modern UI design",
