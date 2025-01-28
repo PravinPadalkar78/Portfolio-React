@@ -15,7 +15,7 @@ export default function Contact() {
     <div className="resume-card flex-center">
       <div className="resume-content">
         <h2>Resume</h2>
-        <Link target='_blank' to="/Pravin_Padalkar_Resume_Dec.pdf"><i className="fas fa-1x fa-eye"></i> &nbsp;<span>preview</span></Link>
+        <Link target='_blank' to="/Pravin_Padalkar_Resume_Jan.pdf"><i className="fas fa-1x fa-eye"></i> &nbsp;<span>preview</span></Link>
       </div>
     </div>
     <div className="github-card flex-center">

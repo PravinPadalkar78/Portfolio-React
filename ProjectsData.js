@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Custom Dashboard",
+    title: "X-Dashboard",
     description:
       "This is a React.js application styled with Tailwind CSS, offering secure login, user registration, and CRUD (Create, Read, Update, Delete) operations. It features a dynamic Accounts List with editable tables, an Entry Form for managing user details, and a button to export table data to Excel. Designed for responsiveness and usability, this project demonstrates efficient data management with a clean, intuitive interface suitable for various use cases in modern web development.",
     projectStack: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React"],
